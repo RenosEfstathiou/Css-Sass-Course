@@ -1,5 +1,7 @@
 .header {
   height: 95vh;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
   background-image: linear-gradient(
       to right bottom,
       rgba($color-primary-light, 0.8),
