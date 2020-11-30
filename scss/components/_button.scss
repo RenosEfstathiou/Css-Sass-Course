@@ -24,10 +24,13 @@
     }
   }
 
-  &:active,
-  &:focus {
+  &:active {
     outline: none;
     transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba($color-black, 0.2);
+  }
+  &:focus {
+    outline: none;
     box-shadow: 0 5px 10px rgba($color-black, 0.2);
   }
 
